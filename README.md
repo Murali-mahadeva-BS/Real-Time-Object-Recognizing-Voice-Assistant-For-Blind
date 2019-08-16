@@ -51,5 +51,12 @@ you need to import the below files to configure the model
 
 3. 'yolov3.cfg' this file contains the biases of nodes or neurons
 
+------------------------------CREATING NO OBJECT DETECTED MP3 FILE-------------------- 
+1. Run the code no_obj.py
+
+2. specify the path where you wish to save that mp3 file
+
+3. Specify this 'no object detected' mp3 path in object recognition code
+
 <Code written doesnt give visual output on the screen when you try to test it but gives voice output.
 it depends on your system's capacity to how many number of frames it can process per second>
