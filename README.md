@@ -34,3 +34,26 @@ Requirements:
 
 4. Installing playsound
   Command line: "Sudo pip install playsound"
+  
+-----------------------------------------------------------------------------------------------------------------
+
+YOLO (You Only Look Once) is model used for object detection. After installing all the required software,
+download configuration files from below link.
+
+https://drive.google.com/open?id=11DUumWP2dR4uxIKhNvIQH_EysdVjWE9u
+
+you need to import the below files to configure the model
+
+1. 'coco.names' file contains all the classes(objects) that this model is trained to detect.
+   To see the contents of this file after importing the essentials open this file 
+   
+   with open(coco.names) as f:
+	for object in f.strip():
+		print(object)
+
+2. 'yolov3.weights' this file contains all the weights of the nodes of neural layers
+
+3. 'yolov3.cfg' this file contains the biases of nodes or neurons
+
+<Code written doesnt give visual output on the screen when you try to test it but gives voice output.
+it depends on your system's capacity to how many number of frames it can process per second>
